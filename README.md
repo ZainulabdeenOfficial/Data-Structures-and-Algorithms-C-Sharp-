@@ -18,15 +18,7 @@
 
 ---
 
-```
-╔════════════════════════════════════════════════════════════════════════════╗
-║                  🚀 DATA STRUCTURES & ALGORITHMS 🚀                        ║
-║                          IN C# PROGRAMMING                                 ║
-║                                                                            ║
-║     Master the fundamentals with practical examples and explanations      ║
-║     Learn, implement, and optimize algorithms for every scenario          ║
-╚════════════════════════════════════════════════════════════════════════════╝
-```
+<img src="./assets/banner.svg" alt="Data Structures and Algorithms in C# banner" width="100%" />
 
 ---
 
