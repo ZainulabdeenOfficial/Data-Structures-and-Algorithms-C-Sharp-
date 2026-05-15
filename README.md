@@ -18,7 +18,15 @@
 
 ---
 
-<img src="https://via.placeholder.com/1200x300?text=Data+Structures+%26+Algorithms+in+C%23" alt="DSA Banner" width="100%">
+```
+╔════════════════════════════════════════════════════════════════════════════╗
+║                  🚀 DATA STRUCTURES & ALGORITHMS 🚀                        ║
+║                          IN C# PROGRAMMING                                 ║
+║                                                                            ║
+║     Master the fundamentals with practical examples and explanations      ║
+║     Learn, implement, and optimize algorithms for every scenario          ║
+╚════════════════════════════════════════════════════════════════════════════╝
+```
 
 ---
 
@@ -32,7 +40,7 @@ A complete learning resource featuring implementations, theory, and practical ex
 
 ## 🎯 Overview
 
-This repository is a comprehensive educational resource for learning and implementing **Data Structures** and **Algorithms** using **C#**. Whether you're a beginner or an experienced developer preparing for technical interviews or advancing your software engineering skills, this repository provides practical, well-documented implementations.
+This repository is a comprehensive educational resource for learning and implementing **Data Structures** and **Algorithms** using **C#**. Whether you're a beginner or an experienced developer preparing for technical interviews, you'll find well-documented, production-ready implementations with detailed explanations.
 
 ### Key Features
 - ✅ **Well-documented code** with comments and explanations
@@ -174,7 +182,7 @@ BINARY SEARCH TREE (BST)
             │           │
         ┌───┴───┐   ┌───┴───┐
         │  12   │   │  20   │
-        └─��─────┘   └───────┘
+        └───────┘   └───────┘
 ```
 
 ### 3. **Hash-Based Structures**
