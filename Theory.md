@@ -21,7 +21,12 @@ how to solve a  Different  problem, often by searching through and manipulating 
 | Recursion | A programming technique where a function calls itself. |
 | Divide and Conquer | A method of solving complex problems by breaking them into smaller sub-problems, solving them, and combining the solutions. |
 | Brute Force | A simple method where an algorithm tries all possible solutions and chooses the best one. |
-     
+
+
+# Array 
+An array is a data structure used to store multiple elements.
+Arrays are used by many algorithms.
+
    
     
 
