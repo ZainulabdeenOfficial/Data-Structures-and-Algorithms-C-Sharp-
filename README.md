@@ -18,7 +18,7 @@
 
 ---
 
-<img src="./assets/banner.png" alt="Data Structures and Algorithms in C# banner" width="100%" />
+<img src="./assets/banner.svg" alt="Data Structures and Algorithms in C# banner" width="100%" />
 
 ---
 
