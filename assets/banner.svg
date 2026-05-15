@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="50%" stop-color="#22104A"/>
+      <stop offset="100%" stop-color="#0D6EFD"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.35 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <rect width="1500" height="500" fill="url(#grid)" opacity="0.55"/>
+
+  <!-- Decorative blobs -->
+  <g filter="url(#softGlow)" opacity="0.9">
+    <circle cx="1250" cy="120" r="140" fill="#7C3AED" opacity="0.55"/>
+    <circle cx="1330" cy="210" r="95" fill="#22C55E" opacity="0.35"/>
+    <circle cx="220" cy="420" r="160" fill="#0D6EFD" opacity="0.35"/>
+  </g>
+
+  <!-- Left accent bar -->
+  <rect x="90" y="90" width="10" height="320" rx="5" fill="url(#chip)" opacity="0.95"/>
+
+  <!-- Title -->
+  <text x="130" y="190" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="1">
+    DATA STRUCTURES &amp; ALGORITHMS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="130" y="245" fill="#E5E7EB" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="2">
+    IN C# PROGRAMMING
+  </text>
+
+  <!-- Taglines -->
+  <text x="130" y="310" fill="#F3F4F6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">
+    Master the fundamentals with practical examples and explanations
+  </text>
+  <text x="130" y="345" fill="#F3F4F6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">
+    Learn, implement, and optimize algorithms for every scenario
+  </text>
+
+  <!-- C# badge -->
+  <g transform="translate(130, 380)">
+    <rect x="0" y="0" width="140" height="44" rx="22" fill="#239120" opacity="0.95"/>
+    <text x="70" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="800">
+      C#
+    </text>
+  </g>
+
+  <!-- Small code icon -->
+  <g transform="translate(320, 380)" opacity="0.9">
+    <rect x="0" y="0" width="170" height="44" rx="22" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+    <text x="85" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Consolas, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="18" font-weight="700">
+      &lt;/&gt;  Learn • Build
+    </text>
+  </g>
+</svg>
