@@ -1,76 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Data Structures and Algorithms in C#</title>
+  <desc id="desc">Professional banner for the Data Structures and Algorithms in C# repository.</desc>
+
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/>
-      <stop offset="50%" stop-color="#22104A"/>
-      <stop offset="100%" stop-color="#0D6EFD"/>
+      <stop offset="0%" stop-color="#140f2d"/>
+      <stop offset="55%" stop-color="#241b57"/>
+      <stop offset="100%" stop-color="#1767ff"/>
     </linearGradient>
-    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#22C55E"/>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#22c55e"/>
     </linearGradient>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feColorMatrix in="blur" type="matrix"
-        values="1 0 0 0 0
-                0 1 0 0 0
-                0 0 1 0 0
-                0 0 0 0.35 0" result="glow"/>
-      <feMerge>
-        <feMergeNode in="glow"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient id="panelStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.22)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.06)"/>
+    </linearGradient>
+    <linearGradient id="codeChip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1f9d55"/>
+      <stop offset="100%" stop-color="#31c48d"/>
+    </linearGradient>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#070b1a" flood-opacity="0.35"/>
     </filter>
     <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <!-- Background -->
   <rect width="1500" height="500" fill="url(#bg)"/>
-  <rect width="1500" height="500" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1500" height="500" fill="url(#grid)" opacity="0.7"/>
 
-  <!-- Decorative blobs -->
-  <g filter="url(#softGlow)" opacity="0.9">
-    <circle cx="1250" cy="120" r="140" fill="#7C3AED" opacity="0.55"/>
-    <circle cx="1330" cy="210" r="95" fill="#22C55E" opacity="0.35"/>
-    <circle cx="220" cy="420" r="160" fill="#0D6EFD" opacity="0.35"/>
-  </g>
+  <circle cx="1280" cy="95" r="160" fill="url(#glowPurple)" filter="url(#softBlur)"/>
+  <circle cx="1335" cy="200" r="135" fill="url(#glowGreen)" filter="url(#softBlur)"/>
+  <circle cx="220" cy="440" r="170" fill="#2563eb" opacity="0.35" filter="url(#softBlur)"/>
 
-  <!-- Left accent bar -->
-  <rect x="90" y="90" width="10" height="320" rx="5" fill="url(#chip)" opacity="0.95"/>
+  <rect x="92" y="84" width="10" height="332" rx="5" fill="url(#accent)"/>
 
-  <!-- Title -->
-  <text x="130" y="190" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="1">
+  <text x="130" y="118" fill="#9cc4ff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="4">
+    PROFESSIONAL LEARNING RESOURCE
+  </text>
+
+  <text x="130" y="196" fill="#ffffff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="58" font-weight="800">
     DATA STRUCTURES &amp; ALGORITHMS
   </text>
 
-  <!-- Subtitle -->
-  <text x="130" y="245" fill="#E5E7EB" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="600" letter-spacing="2">
+  <text x="130" y="242" fill="#e5e7eb" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="1.5">
     IN C# PROGRAMMING
   </text>
 
-  <!-- Taglines -->
-  <text x="130" y="310" fill="#F3F4F6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">
-    Master the fundamentals with practical examples and explanations
+  <text x="130" y="309" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" font-weight="500">
+    Master the fundamentals with practical examples, clear theory, and interview-ready implementations.
   </text>
-  <text x="130" y="345" fill="#F3F4F6" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="500">
-    Learn, implement, and optimize algorithms for every scenario
+  <text x="130" y="342" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" font-weight="500">
+    Learn, build, and optimize core data structures and algorithms with confidence.
   </text>
 
-  <!-- C# badge -->
-  <g transform="translate(130, 380)">
-    <rect x="0" y="0" width="140" height="44" rx="22" fill="#239120" opacity="0.95"/>
-    <text x="70" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="800">
+  <g transform="translate(130 381)">
+    <rect width="138" height="44" rx="22" fill="url(#codeChip)"/>
+    <text x="69" y="29" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="800">
       C#
     </text>
   </g>
 
-  <!-- Small code icon -->
-  <g transform="translate(320, 380)" opacity="0.9">
-    <rect x="0" y="0" width="170" height="44" rx="22" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
-    <text x="85" y="29" text-anchor="middle" fill="#FFFFFF" font-family="Consolas, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace" font-size="18" font-weight="700">
-      &lt;/&gt;  Learn • Build
+  <g transform="translate(284 381)">
+    <rect width="220" height="44" rx="22" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="110" y="28" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18" font-weight="700">
+      Hands-on • Structured • Clear
     </text>
+  </g>
+
+  <g filter="url(#dropShadow)">
+    <rect x="1035" y="88" width="320" height="324" rx="28" fill="#ffffff" fill-opacity="0.08" stroke="url(#panelStroke)"/>
+
+    <text x="1074" y="130" fill="#ffffff" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="22" font-weight="700">
+      Core Concepts
+    </text>
+    <text x="1074" y="156" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">
+      DATA FLOW • LOGIC • OPTIMIZATION
+    </text>
+
+    <line x1="1124" y1="212" x2="1208" y2="168" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1124" y1="212" x2="1208" y2="256" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1208" y1="168" x2="1290" y2="212" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1208" y1="256" x2="1290" y2="212" stroke="#22c55e" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1290" y1="212" x2="1290" y2="298" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+    <circle cx="1124" cy="212" r="26" fill="#0f172a" stroke="#60a5fa" stroke-width="4"/>
+    <circle cx="1208" cy="168" r="24" fill="#0f172a" stroke="#8b5cf6" stroke-width="4"/>
+    <circle cx="1208" cy="256" r="24" fill="#0f172a" stroke="#22c55e" stroke-width="4"/>
+    <circle cx="1290" cy="212" r="26" fill="#0f172a" stroke="#f8fafc" stroke-width="4"/>
+    <circle cx="1290" cy="298" r="24" fill="#0f172a" stroke="#f59e0b" stroke-width="4"/>
+
+    <text x="1124" y="218" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800">DS</text>
+    <text x="1208" y="174" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800">O(1)</text>
+    <text x="1208" y="262" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800">O(n)</text>
+    <text x="1290" y="218" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="800">ALG</text>
+    <text x="1290" y="304" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="800">OPT</text>
+
+    <rect x="1074" y="338" width="111" height="34" rx="17" fill="#3b82f6" fill-opacity="0.18" stroke="#60a5fa" stroke-opacity="0.45"/>
+    <rect x="1193" y="338" width="126" height="34" rx="17" fill="#22c55e" fill-opacity="0.16" stroke="#4ade80" stroke-opacity="0.4"/>
+    <text x="1129.5" y="360" text-anchor="middle" fill="#dbeafe" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700">Algorithms</text>
+    <text x="1256" y="360" text-anchor="middle" fill="#dcfce7" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700">Complexity</text>
   </g>
 </svg>
