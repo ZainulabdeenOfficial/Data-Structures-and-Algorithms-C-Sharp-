@@ -25,7 +25,15 @@ how to solve a  Different  problem, often by searching through and manipulating 
 
 # Array 
 An array is a data structure used to store multiple elements.
-Arrays are used by many algorithms.
+Arrays are used by many algorithms.  
+
+  **1.Bubble Sort**  
+    Bubble sort is  a sorting algorithm for an unsorted array using from the lowest to the highest value.  
+    **steps:**  
+      Compare the first two values in the array. If the first value is greater than the second value, swap them; otherwise,        do not swap them.
+     
+    
+  
 
    
     
