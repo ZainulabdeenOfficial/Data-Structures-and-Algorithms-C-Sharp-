@@ -37,6 +37,15 @@ Arrays are used by many algorithms.
        1. Go through the array to find the lowest value.  
        2. Move the lowest value to the front of the unsorted part of the array.  
        3. Go through the array again as many times as there are values in the array.  
+    **3.Selection  Sort**  
+     Insertion sort Algrothim used one part of array hold osrted value and another part of array hold unstored value  of array.  
+     **Steps**
+     1. Take the first value from the unsorted part of the array.  
+     2. Move the value into the correct place in the sorted part of the array.
+     3. Go through the unsorted part of the array again as many times as there are values.
+    
+
+       
      
     
     
