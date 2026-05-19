@@ -105,3 +105,5 @@ If you want to learn faster, contribute as you go:
 - Add tests / sample inputs and outputs
 
 See `CONTRIBUTING.md` for the repo conventions.
+
+M Zain Ul Abideen
