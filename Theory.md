@@ -30,7 +30,7 @@ Arrays are used by many algorithms.
   **1.Bubble Sort**  
     Bubble sort is  a sorting algorithm for an unsorted array using from the lowest to the highest value.  
     **steps:**  
-      Compare the first two values in the array. If the first value is greater than the second value, swap them; otherwise,        do not swap them.  
+      Compare the first two values in the array. If the first value is greater than the second value, swap them; otherwise,        do not swap them.   
     **2.Selection Sort**  
      Selection sort finds the  lowest value in the array and  moves it to the front of the array.  
      **Steps**  
@@ -42,7 +42,14 @@ Arrays are used by many algorithms.
      **Steps**
      1. Take the first value from the unsorted part of the array.  
      2. Move the value into the correct place in the sorted part of the array.
-     3. Go through the unsorted part of the array again as many times as there are values.
+     3. Go through the unsorted part of the array again as many times as there are values.  
+**4.Quick Sort**
+Quick Sort is sorting Algrothim thats sort array element from smallest to largets very Quickly.  
+**Steps**  
+1.Pick one number from the array → called the pivot  
+2.Put all smaller numbers on the left side  
+3.Put all larger numbers on the right side  
+4.Repeat the same process for the left and right parts until everything is sorted  
     
 
        
