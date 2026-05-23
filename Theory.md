@@ -43,13 +43,20 @@ Arrays are used by many algorithms.
      1. Take the first value from the unsorted part of the array.  
      2. Move the value into the correct place in the sorted part of the array.
      3. Go through the unsorted part of the array again as many times as there are values.  
-**4.Quick Sort**
+**4.Quick Sort**  
 Quick Sort is sorting Algrothim thats sort array element from smallest to largets very Quickly.  
 **Steps**  
 1.Pick one number from the array → called the pivot  
 2.Put all smaller numbers on the left side  
 3.Put all larger numbers on the right side  
 4.Repeat the same process for the left and right parts until everything is sorted  
+
+**5.Counting Sort**  
+The counting sort algorithm sorts the array and counts the number of times each  value occurs.   
+**Steps**  
+1.Each value gets counted by incrementing at the correct index in the counting array. After a value is counted, it is removed.  
+2.The values are recreated in the right order by using the count, and the index of the count, from the counting array.  
+
     
 
        
