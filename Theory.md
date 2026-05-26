@@ -33,7 +33,7 @@ Arrays are used by many algorithms.
       Compare the first two values in the array. If the first value is greater than the second value, swap them; otherwise,        do not swap them.   
     **2.Selection Sort**  
      Selection sort finds the  lowest value in the array and  moves it to the front of the array.  
-     **Steps**  
+     **Steps**    
        1. Go through the array to find the lowest value.  
        2. Move the lowest value to the front of the unsorted part of the array.  
        3. Go through the array again as many times as there are values in the array.  
@@ -46,16 +46,28 @@ Arrays are used by many algorithms.
 **4.Quick Sort**  
 Quick Sort is sorting Algrothim thats sort array element from smallest to largets very Quickly.  
 **Steps**  
-1.Pick one number from the array → called the pivot  
-2.Put all smaller numbers on the left side  
-3.Put all larger numbers on the right side  
-4.Repeat the same process for the left and right parts until everything is sorted  
+1. Pick one number from the array → called the pivot  
+2. Put all smaller numbers on the left side  
+3. Put all larger numbers on the right side  
+4. Repeat the same process for the left and right parts until everything is sorted  
 
 **5.Counting Sort**  
 The counting sort algorithm sorts the array and counts the number of times each  value occurs.   
 **Steps**  
-1.Each value gets counted by incrementing at the correct index in the counting array. After a value is counted, it is removed.  
-2.The values are recreated in the right order by using the count, and the index of the count, from the counting array.  
+1. Each value gets counted by incrementing at the correct index in the counting array. After a value is counted, it is removed.  
+2. The values are recreated in the right order by using the count, and the index of the count, from the counting array.  
+
+**6.Radix Sort**  
+The Radix Sort algorithm sorts an array into individual digits and uses the most significant value to the rightmost one.  
+**Steps**
+1. Find the biggest number in the list to know how many digits to check.
+2. Sort all numbers by the last digit (ones place).
+3. Take the new list and sort it by the second last digit (tens place).
+4. Then sort by the hundreds place, then thousands, and so on.
+5. Repeat this process until all digit places are sorted.
+
+
+
 
     
 
