@@ -67,6 +67,16 @@ The Radix Sort algorithm sorts an array into individual digits and uses the most
 5. Repeat this process until all digit places are sorted.
 
 
+**7.Merge Sort**  
+ merge sort  is a sorting Algrothim thats is used divide and conqure rule for break down arrary into different part and then build togather in correct wau is sorting.  
+
+ **Step**  
+ 1. Divide the unsorted array into two sub-arrays, half the size of the original.  
+ 2.Continue to divide the sub-arrays as long as the current piece of the array has more than one element.  
+ 3.Merge two sub-arrays together by always putting the lowest value first.  
+4.Keep merging until there are no sub-arrays left.  
+ 
+
 
 
     
