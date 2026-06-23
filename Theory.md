@@ -163,6 +163,36 @@ Linear Search is used to search for a value in an array and return its index.
 3. Continue step 1 and 2 for the new reduced part of the array until the target value is found or until the search area is empty.  
 4. If the value is found, return the target value index. If the target value is not found, return -1.  
 --- 
+## Linked List  
+A Linked List is, as the word implies, a list where the nodes are linked together. Each node contains data and a pointer. The way they are linked together is that each node points to where in the memory the next node is placed.  
+### Linked Lists vs Arrays
+A linked list is a way of storing data using nodes that are connected to each other.  
+
+Unlike arrays, which are already built into programming languages, a linked list is something we create ourselves.  
+
+Each node in a linked list contains two things:  
+
+The data (the value)  
+A link (or pointer) to the next node  
+### Linked Lists in Memory
+A linked list is not stored in one straight line like an array. Instead, each item (node) can be stored in different places in memory.  
+
+Each node has:  
+
+The data  
+A link (address/pointer) to the next node  
+
+So the computer moves from one node to another by following these links.  
+
+### Types of Linked List  
+### 1. Singly Linked List  
+A singly linked list is the simplest type.  
+Each node has:  
+Data  
+A link to the next node only
+You can move only forward, from the first node to the last.
+ 
+
 
 
 
