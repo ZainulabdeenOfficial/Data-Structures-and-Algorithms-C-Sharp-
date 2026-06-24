@@ -190,7 +190,19 @@ A singly linked list is the simplest type.
 Each node has:  
 Data  
 A link to the next node only
-You can move only forward, from the first node to the last.
+You can move only forward, from the first node to the last.  
+
+### Doubly Linked List     
+A doubly linked list is a bit more advanced.  
+Each node has:  
+Data  
+A link to the next node  
+A link to the previous node  
+### How it works:  
+You can move:  
+Forward  
+Backward  
+
  
 
 
