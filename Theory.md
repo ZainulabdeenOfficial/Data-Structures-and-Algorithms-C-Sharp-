@@ -203,6 +203,15 @@ You can move:
 Forward  
 Backward  
 
+### Circular Doubly Linked
+A Circular Doubly Linked List is a linked list where:  
+Each node has 3 parts:  
+Previous (prev) → Points to the previous node.  
+Data → Stores the value.  
+Next (next) → Points to the next node.  
+
+
+
  
 
 
