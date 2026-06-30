@@ -210,6 +210,24 @@ Previous (prev) → Points to the previous node.
 Data → Stores the value.  
 Next (next) → Points to the next node.  
 
+### Traversing a Linked List
+
+### What is Traversing?
+
+**Traversing** means **visiting every node in a linked list one by one** from the **head** to the **last node**.
+
+In simple words:
+
+> **Traversing = Moving through the linked list and checking each node.**
+
+## Steps
+
+1. Start from the **head**.
+2. Visit (read or print) the current node.
+3. Move to the **next** node.
+4. Repeat until the current node becomes `null`.
+
+
 
 
  
