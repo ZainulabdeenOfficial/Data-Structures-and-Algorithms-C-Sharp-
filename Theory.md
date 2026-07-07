@@ -228,6 +228,15 @@ In simple words:
 4. Repeat until the current node becomes `null`.
 
 
+---
+# Stack  
+A stack is a data structure that can hold many elements.
+## Important Built-in Function in Stack 
+1.Push: Adds a new element on the stack.  
+2.Pop: Removes and returns the top element from the stack.  
+3.Peek: Returns the top element on the stack.  
+4.isEmpty: Checks if the stack is empty.  
+5.Size: Finds the number of elements in the stack.  
 
 
  
