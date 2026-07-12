@@ -238,6 +238,17 @@ A stack is a data structure that can hold many elements.
 4.isEmpty: Checks if the stack is empty.  
 5.Size: Finds the number of elements in the stack.  
 
+---
+
+# Queues
+A queue is a data structure that can hold many elements.The first person to stand in line is also the first who can pay and leave the supermarket. This way of organizing elements is called FIFO: First In First Out.
+## Basic operations we can do on a queue are:  
+Enqueue: Adds a new element to the queue.  
+Dequeue: Removes and returns the first (front) element from the queue.  
+Peek: Returns the first element in the queue.  
+isEmpty: Checks if the queue is empty.  
+Size: Finds the number of elements in the queue.  
+
 
  
 
