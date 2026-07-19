@@ -249,8 +249,12 @@ Peek: Returns the first element in the queue.
 isEmpty: Checks if the queue is empty.  
 Size: Finds the number of elements in the queue.  
 
+---
+# Hash Table  
+A Hash Table is a data structure that stores data as key-value pairs for fast searching, inserting, and deleting.  
+It uses a hash function to convert a key into an index where the value is stored.  
 
- 
+
 
 
 
